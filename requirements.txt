@@ -20,4 +20,5 @@ google-cloud-dataform>=0.2.0
 
 google-cloud-datacatalog>=3.0.0
 
+backoff>=2.2.1
 
