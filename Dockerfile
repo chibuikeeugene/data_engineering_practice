@@ -8,7 +8,7 @@ RUN apt-get update -qq && apt-get install vim -qqq
 
 COPY requirements.txt .
 
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt --use-deprecated=legacy-resolver
 
 SHELL ["/bin/bash", "-o", "pipefail", "-e", "-u", "-x", "-c"]
 
