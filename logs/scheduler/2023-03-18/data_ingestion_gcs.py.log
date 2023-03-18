@@ -3826,3 +3826,135 @@ If you cannot immediately regenerate your protos, some other possible workaround
 More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
 [2023-03-18 23:16:26,246] {processor.py:653} WARNING - No viable dags retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
 [2023-03-18 23:16:26,269] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.122 seconds
+[2023-03-18 23:16:56,368] {processor.py:153} INFO - Started process (PID=210) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-03-18 23:16:56,369] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-03-18 23:16:56,371] {logging_mixin.py:115} INFO - [2023-03-18 23:16:56,370] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-03-18 23:16:56,462] {logging_mixin.py:115} INFO - [2023-03-18 23:16:56,457] {dagbag.py:320} ERROR - Failed to import: /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py", line 11, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import DEFAULT_RETRY
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 24, in <module>
+    import google.api_core.gapic_v1.method
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/gapic_v1/__init__.py", line 18, in <module>
+    from google.api_core.gapic_v1 import method
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/gapic_v1/method.py", line 24, in <module>
+    from google.api_core import grpc_helpers
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 29, in <module>
+    import grpc_gcp
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc_gcp/__init__.py", line 16, in <module>
+    from grpc_gcp import _channel
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc_gcp/_channel.py", line 19, in <module>
+    from grpc_gcp.proto import grpc_gcp_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc_gcp/proto/grpc_gcp_pb2.py", line 36, in <module>
+    type=None),
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-03-18 23:16:56,465] {processor.py:653} WARNING - No viable dags retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-03-18 23:16:56,660] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.297 seconds
+[2023-03-18 23:17:26,760] {processor.py:153} INFO - Started process (PID=215) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-03-18 23:17:26,763] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-03-18 23:17:26,765] {logging_mixin.py:115} INFO - [2023-03-18 23:17:26,765] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-03-18 23:17:26,870] {logging_mixin.py:115} INFO - [2023-03-18 23:17:26,852] {dagbag.py:320} ERROR - Failed to import: /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py", line 11, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import DEFAULT_RETRY
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 24, in <module>
+    import google.api_core.gapic_v1.method
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/gapic_v1/__init__.py", line 18, in <module>
+    from google.api_core.gapic_v1 import method
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/gapic_v1/method.py", line 24, in <module>
+    from google.api_core import grpc_helpers
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 29, in <module>
+    import grpc_gcp
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc_gcp/__init__.py", line 16, in <module>
+    from grpc_gcp import _channel
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc_gcp/_channel.py", line 19, in <module>
+    from grpc_gcp.proto import grpc_gcp_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc_gcp/proto/grpc_gcp_pb2.py", line 36, in <module>
+    type=None),
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-03-18 23:17:26,872] {processor.py:653} WARNING - No viable dags retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-03-18 23:17:26,898] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.142 seconds
+[2023-03-18 23:17:56,993] {processor.py:153} INFO - Started process (PID=220) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-03-18 23:17:56,996] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-03-18 23:17:56,997] {logging_mixin.py:115} INFO - [2023-03-18 23:17:56,997] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-03-18 23:17:57,080] {logging_mixin.py:115} INFO - [2023-03-18 23:17:57,075] {dagbag.py:320} ERROR - Failed to import: /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py", line 11, in <module>
+    from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExternalTableOperator
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 33, in <module>
+    from google.cloud.bigquery import DEFAULT_RETRY
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/__init__.py", line 35, in <module>
+    from google.cloud.bigquery.client import Client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 61, in <module>
+    from google.cloud.bigquery_storage_v1.services.big_query_read.client import (
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/__init__.py", line 25, in <module>
+    from google.cloud.bigquery_storage_v1 import client
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery_storage_v1/client.py", line 24, in <module>
+    import google.api_core.gapic_v1.method
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/gapic_v1/__init__.py", line 18, in <module>
+    from google.api_core.gapic_v1 import method
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/gapic_v1/method.py", line 24, in <module>
+    from google.api_core import grpc_helpers
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/grpc_helpers.py", line 29, in <module>
+    import grpc_gcp
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc_gcp/__init__.py", line 16, in <module>
+    from grpc_gcp import _channel
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc_gcp/_channel.py", line 19, in <module>
+    from grpc_gcp.proto import grpc_gcp_pb2
+  File "/home/airflow/.local/lib/python3.7/site-packages/grpc_gcp/proto/grpc_gcp_pb2.py", line 36, in <module>
+    type=None),
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/protobuf/descriptor.py", line 796, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates
+[2023-03-18 23:17:57,082] {processor.py:653} WARNING - No viable dags retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-03-18 23:17:57,104] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.115 seconds
