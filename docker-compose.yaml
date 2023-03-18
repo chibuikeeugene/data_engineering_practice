@@ -1,4 +1,39 @@
 version: '3'
+x-airflow-common:
+  &airflow-common
+  # In order to add custom dependencies or upgrade provider packages you can use your extended image.
+  # Comment the image line, place your Dockerfile in the directory where you placed the docker-compose.yaml
+  # and uncomment the "build" line below, Then run `docker-compose build` to build the images.
+  image: apache/airflow:2.3.2
+  build:
+    context: .
+    dockerfile: ./Dockerfile
+  environment:
+    &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__API__AUTH_BACKEND: 'airflow.api.auth.backend.basic_auth'
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    GOOGLE_APPLICATION_CREDENTIALS: /Users/eugene/.google/credentials/google_credentials.json
+    AIRFLOW_CONN_GOOGLE_CLOUD_DEFAULT: 'google-cloud-platform://?extra__google_cloud_platform__key_path=/Users/eugene/.google/credentials/google_credentials.json'
+    GCP_PROJECT_ID: 'nyc-taxi-372520'
+    GCP_GCS_BUCKET: "dtc_data_lake_nyc-taxi-372520"
+
+  volumes:
+    - ./dags:/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+    - ./logs:/Users/eugene/Personal_Projects/Data_Project/app/airflow/logs
+    - ./plugins:/Users/eugene/Personal_Projects/Data_Project/app/airflow/plugins
+    - ~/.google/credentials/:/Users/eugene/.google/credentials
+
+  user: "${AIRFLOW_UID:-501}:0"
+  depends_on:
+    &airflow-common-depends-on
+    postgres:
+      condition: service_healthy
+
 services:
     postgres:
         image: postgres:13
@@ -14,10 +49,14 @@ services:
 
 
     scheduler:
+        <<: *airflow-common
         build: .
         command: scheduler
         restart: on-failure
         depends_on:
+        #   <<: *airflow-common-depends-on
+        #   airflow-init:
+        #     condition: service_completed_successfully
             - postgres
         env_file:
             - .env
@@ -27,13 +66,19 @@ services:
             - ./plugins:/Users/eugene/Personal_Projects/Data_Project/app/airflow/plugins
             - ./scripts:/Users/eugene/Personal_Projects/Data_Project/app/airflow/scripts
             - ~/.google/credentials/:/Users/eugene/.google/credentials
+        user: "root:0"
 
 
     webserver:
+        <<: *airflow-common
+        command: webserver
         build: . 
-        entrypoint: ./scripts/entrypoint.sh
+        #entrypoint: ./scripts/entrypoint.sh
         restart: on-failure
         depends_on:
+        #   <<: *airflow-common-depends-on
+        #   airflow-init:
+        #     condition: service_completed_successfully
             - postgres
             - scheduler
         env_file:
@@ -45,14 +90,39 @@ services:
             - ./scripts:/Users/eugene/Personal_Projects/Data_Project/app/airflow/scripts
             - ~/.google/credentials/:/Users/eugene/.google/credentials:ro
 
-        user: "${AIRFLOW_UID:-501}:0"
+        user: "root:0"
         ports:
             - "8080:8080"
         healthcheck:
-            #test: [ "CMD-SHELL", "[ -f /home/airflow/airflow-webserver.pid ]" ]
+            test: [ "CMD", "curl", "--fail", "http://localhost:8080/health"]
             interval: 30s
             timeout: 30s
             retries: 3
 
+    airflow-init:
+      <<: *airflow-common
+      entrypoint: /bin/bash
+      # yamllint disable rule:line-length
+      command:
+      - -c
+      - |
+        mkdir -p /sources/logs /sources/dags /sources/plugins
+        chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins}
+        exec /entrypoint airflow version
+      # yamllint enable rule:line-length
+      environment:
+        <<: *airflow-common-env
+        _AIRFLOW_DB_UPGRADE: 'true'
+        _AIRFLOW_WWW_USER_CREATE: 'true'
+        _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
+        _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
+      user: "root:0"
+      volumes:
+      - .:/sources
 volumes:
   postgres-db-volume:
+
+
+#${AIRFLOW_UID:-501}
+
+

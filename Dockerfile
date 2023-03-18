@@ -1,4 +1,4 @@
-FROM apache/airflow:2.2.3
+FROM apache/airflow:2.3.2
 
 ENV AIRFLOW_HOME=/Users/eugene/Personal_Projects/Data_Project/app/airflow
 
@@ -8,9 +8,13 @@ RUN apt-get update -qq && apt-get install vim -qqq
 
 COPY requirements.txt .
 
+USER $AIRFLOW_UID
+
 RUN pip install -r requirements.txt --use-deprecated=legacy-resolver
 
 SHELL ["/bin/bash", "-o", "pipefail", "-e", "-u", "-x", "-c"]
+
+USER root
 
 ARG CLOUD_SDK_VERSION=322.0.0
 
@@ -34,6 +38,7 @@ RUN DOWNLOAD_URL="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/goo
 WORKDIR $AIRFLOW_HOME
 
 COPY scripts scripts
-RUN chmod +x scripts
+
+RUN chmod +x scripts/entrypoint.sh
 
 USER $AIRFLOW_UID

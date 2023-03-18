@@ -1,0 +1,723 @@
+[2023-03-18 02:32:54,914] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-03-18 02:32:54,919] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-03-18 02:32:54,922] {manager.py:483} INFO - Checking for new files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags every 300 seconds
+[2023-03-18 02:32:54,924] {manager.py:690} INFO - Searching for files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:32:54,938] {manager.py:693} INFO - There are 1 files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:32:54,994] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py    180  0.01s             0           0
+================================================================================
+[2023-03-18 02:33:25,063] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.22s           2023-03-18T02:32:55
+================================================================================
+[2023-03-18 02:33:55,351] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.25s           2023-03-18T02:33:25
+================================================================================
+[2023-03-18 02:34:25,628] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:33:55
+================================================================================
+[2023-03-18 02:34:55,841] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.19s           2023-03-18T02:34:25
+================================================================================
+[2023-03-18 02:35:26,086] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:34:56
+================================================================================
+[2023-03-18 02:35:56,295] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:35:26
+================================================================================
+[2023-03-18 02:36:26,489] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:35:56
+================================================================================
+[2023-03-18 02:36:56,700] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.20s           2023-03-18T02:36:26
+================================================================================
+[2023-03-18 02:37:26,959] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.16s           2023-03-18T02:36:57
+================================================================================
+[2023-03-18 02:37:55,156] {manager.py:690} INFO - Searching for files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:37:55,175] {manager.py:693} INFO - There are 1 files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:37:57,195] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:37:27
+================================================================================
+[2023-03-18 02:38:27,370] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:37:57
+================================================================================
+[2023-03-18 02:38:57,570] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:38:27
+================================================================================
+[2023-03-18 02:39:27,780] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:38:57
+================================================================================
+[2023-03-18 02:39:57,979] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:39:28
+================================================================================
+[2023-03-18 02:40:28,189] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:39:58
+================================================================================
+[2023-03-18 02:40:58,387] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:40:28
+================================================================================
+[2023-03-18 02:41:28,585] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.13s           2023-03-18T02:40:58
+================================================================================
+[2023-03-18 02:41:58,778] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:41:28
+================================================================================
+[2023-03-18 02:42:28,980] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:41:59
+================================================================================
+[2023-03-18 02:42:55,174] {manager.py:690} INFO - Searching for files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:42:55,191] {manager.py:693} INFO - There are 1 files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:42:59,219] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.17s           2023-03-18T02:42:29
+================================================================================
+[2023-03-18 02:43:29,413] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:42:59
+================================================================================
+[2023-03-18 02:43:59,612] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.18s           2023-03-18T02:43:29
+================================================================================
+[2023-03-18 02:44:29,845] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.20s           2023-03-18T02:43:59
+================================================================================
+[2023-03-18 02:45:00,107] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:44:30
+================================================================================
+[2023-03-18 02:45:30,313] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.16s           2023-03-18T02:45:00
+================================================================================
+[2023-03-18 02:46:00,528] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:45:30
+================================================================================
+[2023-03-18 02:46:30,727] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:46:00
+================================================================================
+[2023-03-18 02:47:00,933] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.13s           2023-03-18T02:46:30
+================================================================================
+[2023-03-18 02:47:31,116] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:47:01
+================================================================================
+[2023-03-18 02:47:55,300] {manager.py:690} INFO - Searching for files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:47:55,311] {manager.py:693} INFO - There are 1 files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:48:01,336] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:47:31
+================================================================================
+[2023-03-18 02:48:31,518] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.16s           2023-03-18T02:48:01
+================================================================================
+[2023-03-18 02:49:01,729] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:48:31
+================================================================================
+[2023-03-18 02:49:31,917] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:49:01
+================================================================================
+[2023-03-18 02:50:02,119] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:49:32
+================================================================================
+[2023-03-18 02:50:32,323] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:50:02
+================================================================================
+[2023-03-18 02:51:02,525] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:50:32
+================================================================================
+[2023-03-18 02:51:32,722] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.16s           2023-03-18T02:51:02
+================================================================================
+[2023-03-18 02:52:02,953] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:51:33
+================================================================================
+[2023-03-18 02:52:33,139] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.18s           2023-03-18T02:52:03
+================================================================================
+[2023-03-18 02:52:55,359] {manager.py:690} INFO - Searching for files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:52:55,372] {manager.py:693} INFO - There are 1 files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:53:03,407] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.16s           2023-03-18T02:52:33
+================================================================================
+[2023-03-18 02:53:33,588] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:53:03
+================================================================================
+[2023-03-18 02:54:03,798] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.16s           2023-03-18T02:53:33
+================================================================================
+[2023-03-18 02:54:34,026] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:54:04
+================================================================================
+[2023-03-18 02:55:04,214] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:54:34
+================================================================================
+[2023-03-18 02:55:34,423] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:55:04
+================================================================================
+[2023-03-18 02:56:04,613] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:55:34
+================================================================================
+[2023-03-18 02:56:34,808] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:56:04
+================================================================================
+[2023-03-18 02:57:05,007] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.17s           2023-03-18T02:56:35
+================================================================================
+[2023-03-18 02:57:35,239] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:57:05
+================================================================================
+[2023-03-18 02:57:55,399] {manager.py:690} INFO - Searching for files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:57:55,411] {manager.py:693} INFO - There are 1 files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 02:58:05,449] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.18s           2023-03-18T02:57:35
+================================================================================
+[2023-03-18 02:58:35,674] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:58:05
+================================================================================
+[2023-03-18 02:59:05,864] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.24s           2023-03-18T02:58:36
+================================================================================
+[2023-03-18 02:59:36,141] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T02:59:06
+================================================================================
+[2023-03-18 03:00:06,354] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T02:59:36
+================================================================================
+[2023-03-18 03:00:36,541] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T03:00:06
+================================================================================
+[2023-03-18 03:01:06,758] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.20s           2023-03-18T03:00:36
+================================================================================
+[2023-03-18 03:01:37,011] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T03:01:07
+================================================================================
+[2023-03-18 03:02:07,207] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.21s           2023-03-18T03:01:37
+================================================================================
+[2023-03-18 03:02:37,480] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T03:02:07
+================================================================================
+[2023-03-18 03:02:55,661] {manager.py:690} INFO - Searching for files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 03:02:55,674] {manager.py:693} INFO - There are 1 files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 03:03:07,725] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T03:02:37
+================================================================================
+[2023-03-18 03:03:37,874] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.14s           2023-03-18T03:03:07
+================================================================================
+[2023-03-18 03:04:08,055] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.27s           2023-03-18T03:03:38
+================================================================================
+[2023-03-18 03:04:38,387] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T03:04:08
+================================================================================
+[2023-03-18 03:05:08,600] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.19s           2023-03-18T03:04:38
+================================================================================
+[2023-03-18 03:05:38,836] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T03:05:08
+================================================================================
+[2023-03-18 03:06:09,037] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T03:05:39
+================================================================================
+[2023-03-18 03:06:39,233] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T03:06:09
+================================================================================
+[2023-03-18 03:07:09,588] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  1.33s           2023-03-18T03:06:40
+================================================================================
+[2023-03-18 03:07:39,752] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  1.07s           2023-03-18T03:07:12
+================================================================================
+[2023-03-18 03:07:55,801] {manager.py:690} INFO - Searching for files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 03:07:55,812] {manager.py:693} INFO - There are 1 files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 03:08:09,862] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.20s           2023-03-18T03:07:42
+================================================================================
+[2023-03-18 03:08:40,088] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.16s           2023-03-18T03:08:13
+================================================================================
+[2023-03-18 03:09:10,300] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T03:08:43
+================================================================================
+[2023-03-18 03:09:40,498] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T03:09:13
+================================================================================
+[2023-03-18 03:10:10,706] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T03:09:43
+================================================================================
+[2023-03-18 03:10:40,903] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.16s           2023-03-18T03:10:13
+================================================================================
+[2023-03-18 03:11:11,110] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.19s           2023-03-18T03:10:44
+================================================================================
+[2023-03-18 03:11:41,374] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.17s           2023-03-18T03:11:14
+================================================================================
+[2023-03-18 03:12:11,584] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T03:11:44
+================================================================================
+[2023-03-18 03:12:41,680] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.90s           2023-03-18T03:12:15
+================================================================================
+[2023-03-18 03:12:55,810] {manager.py:690} INFO - Searching for files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 03:12:55,824] {manager.py:693} INFO - There are 1 files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 03:13:11,892] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.16s           2023-03-18T03:12:45
+================================================================================
+[2023-03-18 03:13:16,772] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-03-18 23:13:53,659] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-03-18 23:13:53,661] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-03-18 23:13:53,664] {manager.py:483} INFO - Checking for new files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags every 300 seconds
+[2023-03-18 23:13:53,666] {manager.py:690} INFO - Searching for files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 23:13:53,685] {manager.py:693} INFO - There are 1 files in /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags
+[2023-03-18 23:13:53,746] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                              PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py    179  0.02s             0           0
+================================================================================
+[2023-03-18 23:14:24,146] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.50s           2023-03-18T23:13:54
+================================================================================
+[2023-03-18 23:14:54,256] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.73s           2023-03-18T23:14:25
+================================================================================
+[2023-03-18 23:15:24,525] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.17s           2023-03-18T23:14:55
+================================================================================
+[2023-03-18 23:15:54,756] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.17s           2023-03-18T23:15:25
+================================================================================
+[2023-03-18 23:16:24,999] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py                           0           1  0.15s           2023-03-18T23:15:56
+================================================================================
