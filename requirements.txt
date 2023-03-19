@@ -1,4 +1,5 @@
 apache-airflow-providers-google
+protobuf==3.20.0
 pyarrow
 google-cloud-aiplatform>=1.7.1
 

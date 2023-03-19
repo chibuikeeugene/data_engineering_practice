@@ -39,6 +39,6 @@ WORKDIR $AIRFLOW_HOME
 
 COPY scripts scripts
 
-RUN chmod +x scripts/entrypoint.sh
+RUN chmod +x scripts
 
 USER $AIRFLOW_UID
