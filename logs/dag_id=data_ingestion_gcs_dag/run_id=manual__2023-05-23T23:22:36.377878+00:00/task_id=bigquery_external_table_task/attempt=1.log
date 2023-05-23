@@ -1,0 +1,24 @@
+[2023-05-23 23:22:43,691] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.bigquery_external_table_task manual__2023-05-23T23:22:36.377878+00:00 [queued]>
+[2023-05-23 23:22:43,702] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.bigquery_external_table_task manual__2023-05-23T23:22:36.377878+00:00 [queued]>
+[2023-05-23 23:22:43,703] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-23 23:22:43,704] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2023-05-23 23:22:43,705] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-23 23:22:43,722] {taskinstance.py:1377} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bigquery_external_table_task> on 2023-05-23 23:22:36.377878+00:00
+[2023-05-23 23:22:43,727] {standard_task_runner.py:52} INFO - Started process 2636 to run task
+[2023-05-23 23:22:43,731] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'data_ingestion_gcs_dag', 'bigquery_external_table_task', 'manual__2023-05-23T23:22:36.377878+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs.py', '--cfg-path', '/tmp/tmp6p2zvy1g', '--error-file', '/tmp/tmpe_vohalz']
+[2023-05-23 23:22:43,733] {standard_task_runner.py:80} INFO - Job 47: Subtask bigquery_external_table_task
+[2023-05-23 23:22:43,795] {task_command.py:370} INFO - Running <TaskInstance: data_ingestion_gcs_dag.bigquery_external_table_task manual__2023-05-23T23:22:36.377878+00:00 [running]> on host ca6ba07bb7b3
+[2023-05-23 23:22:43,879] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=bigquery_external_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-23T23:22:36.377878+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-23T23:22:36.377878+00:00
+[2023-05-23 23:22:43,882] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2023-05-23 23:22:43,883] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-05-23 23:22:44,435] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=data_ingestion_gcs_dag, task_id=bigquery_external_table_task, execution_date=20230523T232236, start_date=20230523T232243, end_date=20230523T232244
+[2023-05-23 23:22:44,469] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-05-23 23:22:44,501] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

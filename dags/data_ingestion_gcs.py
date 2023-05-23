@@ -1,3 +1,5 @@
+# ================= impport necessary libraries ==================== #
+
 import os
 import logging
 
@@ -12,9 +14,13 @@ from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExte
 import pyarrow.csv as pv
 import pyarrow.parquet as pq
 
+## ================ retrieve GCP environment variables    ===================== ##
+
 PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
 BUCKET = os.environ.get("GCP_GCS_BUCKET")
 
+
+## ============== parameterization of variables ====================== ##
 dataset_file = "yellow_tripdata_2021-01.parquet"
 dataset_url = f"https://d37ci6vzurychx.cloudfront.net/trip-data/{dataset_file}"
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/Users/eugene/Personal_Projects/Data_Project/app/airflow")
@@ -49,7 +55,7 @@ with DAG(
     default_args=default_args,
     catchup=False,
     max_active_runs=1,
-    tags=['dtc-de'],
+    tags=['de'],
 ) as dag:
     
     download_dataset_task = BashOperator(
@@ -57,7 +63,7 @@ with DAG(
         bash_command=f"curl -sSL {dataset_url} > {path_to_local_home}/{dataset_file}"
     )
 
-    # TODO: Homework - research and try XCOM to communicate output values between 2 tasks/operators
+    # TODO: research and try XCOM to communicate output values between 2 tasks/operators
     local_to_gcs_task = PythonOperator(
         task_id="local_to_gcs_task",
         python_callable=upload_to_gcs,
@@ -84,5 +90,4 @@ with DAG(
     )
 
     download_dataset_task  >> local_to_gcs_task >> bigquery_external_table_task
-
 

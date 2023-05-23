@@ -1,0 +1,87 @@
+[2023-05-23 20:45:55,351] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.local_to_gcs_task manual__2023-05-23T20:45:51.133709+00:00 [queued]>
+[2023-05-23 20:45:55,361] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.local_to_gcs_task manual__2023-05-23T20:45:51.133709+00:00 [queued]>
+[2023-05-23 20:45:55,362] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-23 20:45:55,363] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2023-05-23 20:45:55,364] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-23 20:45:55,379] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2023-05-23 20:45:51.133709+00:00
+[2023-05-23 20:45:55,385] {standard_task_runner.py:52} INFO - Started process 760 to run task
+[2023-05-23 20:45:55,389] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'data_ingestion_gcs_dag', 'local_to_gcs_task', 'manual__2023-05-23T20:45:51.133709+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs.py', '--cfg-path', '/tmp/tmp19i0ovx0', '--error-file', '/tmp/tmpvlha19ed']
+[2023-05-23 20:45:55,391] {standard_task_runner.py:80} INFO - Job 36: Subtask local_to_gcs_task
+[2023-05-23 20:45:55,452] {task_command.py:370} INFO - Running <TaskInstance: data_ingestion_gcs_dag.local_to_gcs_task manual__2023-05-23T20:45:51.133709+00:00 [running]> on host bfd57a4116d5
+[2023-05-23 20:45:55,531] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-23T20:45:51.133709+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-23T20:45:51.133709+00:00
+[2023-05-23 20:45:55,794] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2594, in upload_from_file
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2412, in _do_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2237, in _do_resumable_upload
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2112, in _initiate_resumable_upload
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 421, in initiate
+    retriable_request, self._get_status_code, self._retry_strategy
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/_request_helpers.py", line 148, in wait_and_retry
+    response = func()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/requests/upload.py", line 416, in retriable_request
+    self._process_initiate_response(result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_upload.py", line 513, in _process_initiate_response
+    callback=self._make_invalid,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/resumable_media/_helpers.py", line 110, in require_status_code
+    *status_codes
+google.resumable_media.common.InvalidResponse: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.CREATED: 201>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py", line 41, in upload_to_gcs
+    blob.upload_from_filename(local_file)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2735, in upload_from_filename
+    retry=retry,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 2598, in upload_from_file
+    _raise_from_invalid_response(exc)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/blob.py", line 4470, in _raise_from_invalid_response
+    raise exceptions.from_http_status(response.status_code, message, response=response)
+google.api_core.exceptions.Forbidden: 403 POST https://storage.googleapis.com/upload/storage/v1/b/twitter-etl-bucket/o?uploadType=resumable: {
+  "error": {
+    "code": 403,
+    "message": "690814178061-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "690814178061-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.CREATED: 201>)
+[2023-05-23 20:45:55,820] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=data_ingestion_gcs_dag, task_id=local_to_gcs_task, execution_date=20230523T204551, start_date=20230523T204555, end_date=20230523T204555
+[2023-05-23 20:45:55,837] {standard_task_runner.py:97} ERROR - Failed to execute job 36 for task local_to_gcs_task (403 POST https://storage.googleapis.com/upload/storage/v1/b/twitter-etl-bucket/o?uploadType=resumable: {
+  "error": {
+    "code": 403,
+    "message": "690814178061-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+    "errors": [
+      {
+        "message": "690814178061-compute@developer.gserviceaccount.com does not have storage.objects.create access to the Google Cloud Storage object. Permission 'storage.objects.create' denied on resource (or it may not exist).",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ]
+  }
+}
+: ('Request failed with status code', 403, 'Expected one of', <HTTPStatus.OK: 200>, <HTTPStatus.CREATED: 201>); 760)
+[2023-05-23 20:45:55,885] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-05-23 20:45:55,927] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

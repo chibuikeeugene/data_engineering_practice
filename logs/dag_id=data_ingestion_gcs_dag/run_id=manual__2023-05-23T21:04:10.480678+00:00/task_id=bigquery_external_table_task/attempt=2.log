@@ -1,0 +1,44 @@
+[2023-05-23 21:09:19,459] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.bigquery_external_table_task manual__2023-05-23T21:04:10.480678+00:00 [queued]>
+[2023-05-23 21:09:19,468] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.bigquery_external_table_task manual__2023-05-23T21:04:10.480678+00:00 [queued]>
+[2023-05-23 21:09:19,469] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-23 21:09:19,470] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2023-05-23 21:09:19,471] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-23 21:09:19,485] {taskinstance.py:1377} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bigquery_external_table_task> on 2023-05-23 21:04:10.480678+00:00
+[2023-05-23 21:09:19,490] {standard_task_runner.py:52} INFO - Started process 344 to run task
+[2023-05-23 21:09:19,494] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'data_ingestion_gcs_dag', 'bigquery_external_table_task', 'manual__2023-05-23T21:04:10.480678+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs.py', '--cfg-path', '/tmp/tmpras37d1x', '--error-file', '/tmp/tmpgnvvur18']
+[2023-05-23 21:09:19,495] {standard_task_runner.py:80} INFO - Job 44: Subtask bigquery_external_table_task
+[2023-05-23 21:09:19,551] {task_command.py:370} INFO - Running <TaskInstance: data_ingestion_gcs_dag.bigquery_external_table_task manual__2023-05-23T21:04:10.480678+00:00 [running]> on host ca6ba07bb7b3
+[2023-05-23 21:09:19,620] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=bigquery_external_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-23T21:04:10.480678+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-23T21:04:10.480678+00:00
+[2023-05-23 21:09:19,623] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2023-05-23 21:09:19,624] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2023-05-23 21:09:20,272] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 1108, in execute
+    table_resource=self.table_resource,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/common/hooks/base_google.py", line 439, in inner_wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/hooks/bigquery.py", line 400, in create_empty_table
+    table=table, exists_ok=exists_ok, retry=retry
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 755, in create_table
+    timeout=timeout,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/bigquery/client.py", line 782, in _call_api
+    return call()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/retry.py", line 288, in retry_wrapped_func
+    on_error=on_error,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_http/__init__.py", line 494, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.NotFound: 404 POST https://bigquery.googleapis.com/bigquery/v2/projects/twitter-etl-385111/datasets/trips_data_all/tables?prettyPrint=false: Not found: Dataset twitter-etl-385111:trips_data_all
+[2023-05-23 21:09:20,286] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=data_ingestion_gcs_dag, task_id=bigquery_external_table_task, execution_date=20230523T210410, start_date=20230523T210919, end_date=20230523T210920
+[2023-05-23 21:09:20,299] {standard_task_runner.py:97} ERROR - Failed to execute job 44 for task bigquery_external_table_task (404 POST https://bigquery.googleapis.com/bigquery/v2/projects/twitter-etl-385111/datasets/trips_data_all/tables?prettyPrint=false: Not found: Dataset twitter-etl-385111:trips_data_all; 344)
+[2023-05-23 21:09:20,313] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-05-23 21:09:20,345] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

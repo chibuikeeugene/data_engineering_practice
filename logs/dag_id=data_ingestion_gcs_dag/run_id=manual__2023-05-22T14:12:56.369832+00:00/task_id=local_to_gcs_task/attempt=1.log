@@ -1,0 +1,50 @@
+[2023-05-22 14:13:05,301] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.local_to_gcs_task manual__2023-05-22T14:12:56.369832+00:00 [queued]>
+[2023-05-22 14:13:05,312] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: data_ingestion_gcs_dag.local_to_gcs_task manual__2023-05-22T14:12:56.369832+00:00 [queued]>
+[2023-05-22 14:13:05,313] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-22 14:13:05,314] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2023-05-22 14:13:05,315] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-22 14:13:05,329] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): local_to_gcs_task> on 2023-05-22 14:12:56.369832+00:00
+[2023-05-22 14:13:05,335] {standard_task_runner.py:52} INFO - Started process 200 to run task
+[2023-05-22 14:13:05,339] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'data_ingestion_gcs_dag', 'local_to_gcs_task', 'manual__2023-05-22T14:12:56.369832+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_gcs.py', '--cfg-path', '/tmp/tmprijxjktz', '--error-file', '/tmp/tmp8cjq35k6']
+[2023-05-22 14:13:05,340] {standard_task_runner.py:80} INFO - Job 13: Subtask local_to_gcs_task
+[2023-05-22 14:13:05,399] {task_command.py:370} INFO - Running <TaskInstance: data_ingestion_gcs_dag.local_to_gcs_task manual__2023-05-22T14:12:56.369832+00:00 [running]> on host bfd57a4116d5
+[2023-05-22 14:13:05,479] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=local_to_gcs_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-22T14:12:56.369832+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-22T14:12:56.369832+00:00
+[2023-05-22 14:13:05,483] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py", line 37, in upload_to_gcs
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/storage/client.py", line 128, in __init__
+    _http=_http,
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 546, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 539, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 219, in _get_explicit_environ_credentials
+    os.environ[environment_vars.CREDENTIALS], quota_project_id=quota_project_id
+  File "/home/airflow/.local/lib/python3.7/site-packages/google/auth/_default.py", line 118, in load_credentials_from_file
+    "File {} was not found.".format(filename)
+google.auth.exceptions.DefaultCredentialsError: File /Users/eugene/.google/credentials/google_credentials.json was not found.
+[2023-05-22 14:13:05,495] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=data_ingestion_gcs_dag, task_id=local_to_gcs_task, execution_date=20230522T141256, start_date=20230522T141305, end_date=20230522T141305
+[2023-05-22 14:13:05,505] {standard_task_runner.py:97} ERROR - Failed to execute job 13 for task local_to_gcs_task (File /Users/eugene/.google/credentials/google_credentials.json was not found.; 200)
+[2023-05-22 14:13:05,552] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-05-22 14:13:05,596] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
