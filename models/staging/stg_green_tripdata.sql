@@ -1,3 +1,3 @@
 {{ config(materialized='view') }}
 
-select * from trips_data_all.yellow_table
+select * from  {{source('staging', 'yellow_table')}} limit 100
