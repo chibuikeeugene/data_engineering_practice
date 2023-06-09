@@ -408,3 +408,419 @@
 [2023-06-03 22:55:27,789] {logging_mixin.py:115} INFO - [2023-06-03 22:55:27,789] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-06-03 22:55:27,814] {logging_mixin.py:115} INFO - [2023-06-03 22:55:27,814] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
 [2023-06-03 22:55:27,830] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.609 seconds
+[2023-06-03 22:55:57,965] {processor.py:153} INFO - Started process (PID=1144) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:55:57,966] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 22:55:57,968] {logging_mixin.py:115} INFO - [2023-06-03 22:55:57,968] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:55:58,347] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:55:58,493] {logging_mixin.py:115} INFO - [2023-06-03 22:55:58,492] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 22:55:58,515] {logging_mixin.py:115} INFO - [2023-06-03 22:55:58,515] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 22:55:58,527] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.568 seconds
+[2023-06-03 22:56:28,636] {processor.py:153} INFO - Started process (PID=1157) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:56:28,638] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 22:56:28,639] {logging_mixin.py:115} INFO - [2023-06-03 22:56:28,639] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:56:29,063] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:56:29,216] {logging_mixin.py:115} INFO - [2023-06-03 22:56:29,216] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 22:56:29,241] {logging_mixin.py:115} INFO - [2023-06-03 22:56:29,241] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 22:56:29,255] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.624 seconds
+[2023-06-03 22:56:59,384] {processor.py:153} INFO - Started process (PID=1170) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:56:59,386] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 22:56:59,388] {logging_mixin.py:115} INFO - [2023-06-03 22:56:59,388] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:56:59,848] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:57:00,007] {logging_mixin.py:115} INFO - [2023-06-03 22:57:00,006] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 22:57:00,035] {logging_mixin.py:115} INFO - [2023-06-03 22:57:00,035] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 22:57:00,056] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.676 seconds
+[2023-06-03 22:57:30,176] {processor.py:153} INFO - Started process (PID=1182) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:57:30,177] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 22:57:30,179] {logging_mixin.py:115} INFO - [2023-06-03 22:57:30,179] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:57:30,586] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:57:30,750] {logging_mixin.py:115} INFO - [2023-06-03 22:57:30,750] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 22:57:30,775] {logging_mixin.py:115} INFO - [2023-06-03 22:57:30,775] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 22:57:30,789] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.618 seconds
+[2023-06-03 22:58:00,853] {processor.py:153} INFO - Started process (PID=1195) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:58:00,855] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 22:58:00,856] {logging_mixin.py:115} INFO - [2023-06-03 22:58:00,856] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:58:01,283] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:58:01,443] {logging_mixin.py:115} INFO - [2023-06-03 22:58:01,443] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 22:58:01,467] {logging_mixin.py:115} INFO - [2023-06-03 22:58:01,467] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 22:58:01,480] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.632 seconds
+[2023-06-03 22:58:31,599] {processor.py:153} INFO - Started process (PID=1208) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:58:31,601] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 22:58:31,602] {logging_mixin.py:115} INFO - [2023-06-03 22:58:31,602] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:58:31,968] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:58:32,118] {logging_mixin.py:115} INFO - [2023-06-03 22:58:32,117] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 22:58:32,142] {logging_mixin.py:115} INFO - [2023-06-03 22:58:32,142] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 22:58:32,155] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.562 seconds
+[2023-06-03 22:59:02,262] {processor.py:153} INFO - Started process (PID=1221) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:59:02,264] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 22:59:02,266] {logging_mixin.py:115} INFO - [2023-06-03 22:59:02,266] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:59:02,660] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:59:02,808] {logging_mixin.py:115} INFO - [2023-06-03 22:59:02,808] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 22:59:02,835] {logging_mixin.py:115} INFO - [2023-06-03 22:59:02,835] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 22:59:02,847] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.590 seconds
+[2023-06-03 22:59:32,957] {processor.py:153} INFO - Started process (PID=1234) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:59:32,959] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 22:59:32,960] {logging_mixin.py:115} INFO - [2023-06-03 22:59:32,960] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:59:33,401] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 22:59:33,550] {logging_mixin.py:115} INFO - [2023-06-03 22:59:33,550] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 22:59:33,574] {logging_mixin.py:115} INFO - [2023-06-03 22:59:33,574] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 22:59:33,588] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.635 seconds
+[2023-06-03 23:00:03,729] {processor.py:153} INFO - Started process (PID=1247) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:00:03,733] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:00:03,735] {logging_mixin.py:115} INFO - [2023-06-03 23:00:03,735] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:00:04,537] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:00:04,806] {logging_mixin.py:115} INFO - [2023-06-03 23:00:04,806] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:00:04,845] {logging_mixin.py:115} INFO - [2023-06-03 23:00:04,844] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:00:04,870] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 1.148 seconds
+[2023-06-03 23:00:35,018] {processor.py:153} INFO - Started process (PID=1260) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:00:35,019] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:00:35,021] {logging_mixin.py:115} INFO - [2023-06-03 23:00:35,021] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:00:35,393] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:00:35,541] {logging_mixin.py:115} INFO - [2023-06-03 23:00:35,541] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:00:35,563] {logging_mixin.py:115} INFO - [2023-06-03 23:00:35,563] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:00:35,576] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.562 seconds
+[2023-06-03 23:01:05,705] {processor.py:153} INFO - Started process (PID=1273) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:01:05,707] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:01:05,708] {logging_mixin.py:115} INFO - [2023-06-03 23:01:05,708] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:01:06,084] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:01:06,234] {logging_mixin.py:115} INFO - [2023-06-03 23:01:06,233] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:01:06,256] {logging_mixin.py:115} INFO - [2023-06-03 23:01:06,256] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:01:06,268] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.568 seconds
+[2023-06-03 23:01:36,380] {processor.py:153} INFO - Started process (PID=1287) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:01:36,381] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:01:36,383] {logging_mixin.py:115} INFO - [2023-06-03 23:01:36,383] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:01:36,818] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:01:36,974] {logging_mixin.py:115} INFO - [2023-06-03 23:01:36,973] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:01:36,997] {logging_mixin.py:115} INFO - [2023-06-03 23:01:36,997] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:01:37,012] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.637 seconds
+[2023-06-03 23:02:07,137] {processor.py:153} INFO - Started process (PID=1300) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:02:07,138] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:02:07,139] {logging_mixin.py:115} INFO - [2023-06-03 23:02:07,139] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:02:07,548] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:02:07,694] {logging_mixin.py:115} INFO - [2023-06-03 23:02:07,693] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:02:07,716] {logging_mixin.py:115} INFO - [2023-06-03 23:02:07,716] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:02:07,729] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.597 seconds
+[2023-06-03 23:02:37,847] {processor.py:153} INFO - Started process (PID=1313) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:02:37,849] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:02:37,850] {logging_mixin.py:115} INFO - [2023-06-03 23:02:37,850] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:02:38,344] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:02:38,495] {logging_mixin.py:115} INFO - [2023-06-03 23:02:38,495] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:02:38,518] {logging_mixin.py:115} INFO - [2023-06-03 23:02:38,518] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:02:38,531] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.688 seconds
+[2023-06-03 23:03:08,608] {processor.py:153} INFO - Started process (PID=1326) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:03:08,609] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:03:08,611] {logging_mixin.py:115} INFO - [2023-06-03 23:03:08,611] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:03:09,025] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:03:09,188] {logging_mixin.py:115} INFO - [2023-06-03 23:03:09,188] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:03:09,222] {logging_mixin.py:115} INFO - [2023-06-03 23:03:09,222] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:03:09,245] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.642 seconds
+[2023-06-03 23:03:39,417] {processor.py:153} INFO - Started process (PID=1339) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:03:39,418] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:03:39,419] {logging_mixin.py:115} INFO - [2023-06-03 23:03:39,419] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:03:39,808] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:03:39,961] {logging_mixin.py:115} INFO - [2023-06-03 23:03:39,961] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:03:39,984] {logging_mixin.py:115} INFO - [2023-06-03 23:03:39,983] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:03:39,997] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.585 seconds
+[2023-06-03 23:04:10,136] {processor.py:153} INFO - Started process (PID=1352) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:04:10,141] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:04:10,143] {logging_mixin.py:115} INFO - [2023-06-03 23:04:10,143] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:04:11,302] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:04:11,660] {logging_mixin.py:115} INFO - [2023-06-03 23:04:11,660] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:04:11,711] {logging_mixin.py:115} INFO - [2023-06-03 23:04:11,711] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:04:11,744] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 1.618 seconds
+[2023-06-03 23:04:41,929] {processor.py:153} INFO - Started process (PID=1365) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:04:41,932] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:04:41,935] {logging_mixin.py:115} INFO - [2023-06-03 23:04:41,935] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:04:42,778] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:04:43,075] {logging_mixin.py:115} INFO - [2023-06-03 23:04:43,075] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:04:43,114] {logging_mixin.py:115} INFO - [2023-06-03 23:04:43,113] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:04:43,145] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 1.222 seconds
+[2023-06-03 23:05:13,294] {processor.py:153} INFO - Started process (PID=1378) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:05:13,296] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:05:13,298] {logging_mixin.py:115} INFO - [2023-06-03 23:05:13,298] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:05:13,805] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:05:13,989] {logging_mixin.py:115} INFO - [2023-06-03 23:05:13,989] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:05:14,019] {logging_mixin.py:115} INFO - [2023-06-03 23:05:14,019] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:05:14,034] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.745 seconds
+[2023-06-03 23:05:44,111] {processor.py:153} INFO - Started process (PID=1391) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:05:44,114] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:05:44,115] {logging_mixin.py:115} INFO - [2023-06-03 23:05:44,115] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:05:44,533] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:05:44,702] {logging_mixin.py:115} INFO - [2023-06-03 23:05:44,701] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:05:44,728] {logging_mixin.py:115} INFO - [2023-06-03 23:05:44,728] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:05:44,744] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.637 seconds
+[2023-06-03 23:06:14,871] {processor.py:153} INFO - Started process (PID=1404) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:06:14,874] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:06:14,875] {logging_mixin.py:115} INFO - [2023-06-03 23:06:14,875] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:06:15,334] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:06:15,498] {logging_mixin.py:115} INFO - [2023-06-03 23:06:15,498] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:06:15,523] {logging_mixin.py:115} INFO - [2023-06-03 23:06:15,523] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:06:15,537] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.671 seconds
+[2023-06-03 23:06:45,652] {processor.py:153} INFO - Started process (PID=1417) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:06:45,653] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:06:45,654] {logging_mixin.py:115} INFO - [2023-06-03 23:06:45,654] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:06:46,102] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:06:46,275] {logging_mixin.py:115} INFO - [2023-06-03 23:06:46,274] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:06:46,301] {logging_mixin.py:115} INFO - [2023-06-03 23:06:46,301] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:06:46,316] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.669 seconds
+[2023-06-03 23:07:16,427] {processor.py:153} INFO - Started process (PID=1430) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:07:16,429] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:07:16,431] {logging_mixin.py:115} INFO - [2023-06-03 23:07:16,430] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:07:16,889] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:07:17,052] {logging_mixin.py:115} INFO - [2023-06-03 23:07:17,051] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:07:17,084] {logging_mixin.py:115} INFO - [2023-06-03 23:07:17,084] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:07:17,099] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.676 seconds
+[2023-06-03 23:07:47,226] {processor.py:153} INFO - Started process (PID=1450) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:07:47,230] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:07:47,232] {logging_mixin.py:115} INFO - [2023-06-03 23:07:47,232] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:07:47,681] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:07:47,849] {logging_mixin.py:115} INFO - [2023-06-03 23:07:47,848] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:07:47,873] {logging_mixin.py:115} INFO - [2023-06-03 23:07:47,872] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:07:47,886] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.665 seconds
+[2023-06-03 23:08:18,006] {processor.py:153} INFO - Started process (PID=1463) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:08:18,008] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:08:18,010] {logging_mixin.py:115} INFO - [2023-06-03 23:08:18,009] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:08:18,492] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:08:18,661] {logging_mixin.py:115} INFO - [2023-06-03 23:08:18,660] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:08:18,685] {logging_mixin.py:115} INFO - [2023-06-03 23:08:18,685] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:08:18,700] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.698 seconds
+[2023-06-03 23:08:48,802] {processor.py:153} INFO - Started process (PID=1476) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:08:48,804] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:08:48,805] {logging_mixin.py:115} INFO - [2023-06-03 23:08:48,805] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:08:49,260] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:08:49,433] {logging_mixin.py:115} INFO - [2023-06-03 23:08:49,433] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:08:49,458] {logging_mixin.py:115} INFO - [2023-06-03 23:08:49,458] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:08:49,473] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.675 seconds
+[2023-06-03 23:09:19,614] {processor.py:153} INFO - Started process (PID=1489) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:09:19,617] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:09:19,619] {logging_mixin.py:115} INFO - [2023-06-03 23:09:19,619] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:09:20,863] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:09:21,138] {logging_mixin.py:115} INFO - [2023-06-03 23:09:21,137] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:09:21,178] {logging_mixin.py:115} INFO - [2023-06-03 23:09:21,178] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:09:21,206] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 1.599 seconds
+[2023-06-03 23:09:51,387] {processor.py:153} INFO - Started process (PID=1502) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:09:51,391] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:09:51,395] {logging_mixin.py:115} INFO - [2023-06-03 23:09:51,395] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:09:52,517] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:09:52,816] {logging_mixin.py:115} INFO - [2023-06-03 23:09:52,815] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:09:52,860] {logging_mixin.py:115} INFO - [2023-06-03 23:09:52,859] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:09:52,886] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 1.504 seconds
+[2023-06-03 23:10:23,059] {processor.py:153} INFO - Started process (PID=1515) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:10:23,060] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:10:23,062] {logging_mixin.py:115} INFO - [2023-06-03 23:10:23,062] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:10:23,427] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:10:23,571] {logging_mixin.py:115} INFO - [2023-06-03 23:10:23,571] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:10:23,594] {logging_mixin.py:115} INFO - [2023-06-03 23:10:23,594] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:10:23,606] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.552 seconds
+[2023-06-03 23:10:53,718] {processor.py:153} INFO - Started process (PID=1528) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:10:53,719] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:10:53,722] {logging_mixin.py:115} INFO - [2023-06-03 23:10:53,722] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:10:54,086] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:10:54,233] {logging_mixin.py:115} INFO - [2023-06-03 23:10:54,233] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:10:54,256] {logging_mixin.py:115} INFO - [2023-06-03 23:10:54,256] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:10:54,268] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.555 seconds
+[2023-06-03 23:11:24,396] {processor.py:153} INFO - Started process (PID=1541) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:11:24,398] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:11:24,399] {logging_mixin.py:115} INFO - [2023-06-03 23:11:24,399] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:11:24,815] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:11:24,967] {logging_mixin.py:115} INFO - [2023-06-03 23:11:24,967] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:11:24,994] {logging_mixin.py:115} INFO - [2023-06-03 23:11:24,993] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:11:25,008] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.617 seconds
+[2023-06-03 23:11:55,122] {processor.py:153} INFO - Started process (PID=1554) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:11:55,123] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:11:55,125] {logging_mixin.py:115} INFO - [2023-06-03 23:11:55,125] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:11:55,547] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:11:55,703] {logging_mixin.py:115} INFO - [2023-06-03 23:11:55,703] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:11:55,726] {logging_mixin.py:115} INFO - [2023-06-03 23:11:55,726] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:11:55,740] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.622 seconds
+[2023-06-03 23:12:25,870] {processor.py:153} INFO - Started process (PID=1567) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:12:25,872] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:12:25,874] {logging_mixin.py:115} INFO - [2023-06-03 23:12:25,874] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:12:26,389] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:12:26,560] {logging_mixin.py:115} INFO - [2023-06-03 23:12:26,559] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:12:26,588] {logging_mixin.py:115} INFO - [2023-06-03 23:12:26,588] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:12:26,605] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.740 seconds
+[2023-06-03 23:12:56,727] {processor.py:153} INFO - Started process (PID=1580) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:12:56,730] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:12:56,731] {logging_mixin.py:115} INFO - [2023-06-03 23:12:56,731] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:12:57,095] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:12:57,256] {logging_mixin.py:115} INFO - [2023-06-03 23:12:57,255] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:12:57,282] {logging_mixin.py:115} INFO - [2023-06-03 23:12:57,282] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:12:57,297] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.574 seconds
+[2023-06-03 23:13:27,412] {processor.py:153} INFO - Started process (PID=1593) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:13:27,413] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:13:27,414] {logging_mixin.py:115} INFO - [2023-06-03 23:13:27,414] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:13:27,786] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:13:27,932] {logging_mixin.py:115} INFO - [2023-06-03 23:13:27,931] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:13:27,954] {logging_mixin.py:115} INFO - [2023-06-03 23:13:27,954] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:13:27,966] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.560 seconds
+[2023-06-03 23:13:58,090] {processor.py:153} INFO - Started process (PID=1606) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:13:58,091] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:13:58,093] {logging_mixin.py:115} INFO - [2023-06-03 23:13:58,092] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:13:58,514] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:13:58,667] {logging_mixin.py:115} INFO - [2023-06-03 23:13:58,667] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:13:58,693] {logging_mixin.py:115} INFO - [2023-06-03 23:13:58,693] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:13:58,707] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.623 seconds
+[2023-06-03 23:14:28,824] {processor.py:153} INFO - Started process (PID=1619) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:14:28,826] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:14:28,828] {logging_mixin.py:115} INFO - [2023-06-03 23:14:28,828] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:14:29,314] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:14:29,468] {logging_mixin.py:115} INFO - [2023-06-03 23:14:29,467] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:14:29,491] {logging_mixin.py:115} INFO - [2023-06-03 23:14:29,491] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:14:29,503] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.685 seconds
+[2023-06-03 23:14:59,634] {processor.py:153} INFO - Started process (PID=1632) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:14:59,635] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:14:59,637] {logging_mixin.py:115} INFO - [2023-06-03 23:14:59,637] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:15:00,000] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:15:00,149] {logging_mixin.py:115} INFO - [2023-06-03 23:15:00,148] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:15:00,171] {logging_mixin.py:115} INFO - [2023-06-03 23:15:00,171] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:15:00,183] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.555 seconds
+[2023-06-03 23:15:30,293] {processor.py:153} INFO - Started process (PID=1646) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:15:30,295] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:15:30,296] {logging_mixin.py:115} INFO - [2023-06-03 23:15:30,296] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:15:30,747] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:15:30,908] {logging_mixin.py:115} INFO - [2023-06-03 23:15:30,907] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:15:30,932] {logging_mixin.py:115} INFO - [2023-06-03 23:15:30,932] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:15:30,946] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.658 seconds
+[2023-06-03 23:16:01,061] {processor.py:153} INFO - Started process (PID=1659) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:16:01,064] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:16:01,066] {logging_mixin.py:115} INFO - [2023-06-03 23:16:01,066] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:16:01,585] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:16:01,770] {logging_mixin.py:115} INFO - [2023-06-03 23:16:01,770] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:16:01,798] {logging_mixin.py:115} INFO - [2023-06-03 23:16:01,798] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:16:01,816] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.761 seconds
+[2023-06-03 23:16:31,985] {processor.py:153} INFO - Started process (PID=1672) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:16:31,990] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:16:31,994] {logging_mixin.py:115} INFO - [2023-06-03 23:16:31,993] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:16:32,853] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:16:33,126] {logging_mixin.py:115} INFO - [2023-06-03 23:16:33,125] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:16:33,168] {logging_mixin.py:115} INFO - [2023-06-03 23:16:33,168] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:16:33,191] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 1.220 seconds
+[2023-06-03 23:17:03,362] {processor.py:153} INFO - Started process (PID=1685) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:17:03,367] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:17:03,370] {logging_mixin.py:115} INFO - [2023-06-03 23:17:03,369] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:17:04,957] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:17:05,636] {logging_mixin.py:115} INFO - [2023-06-03 23:17:05,635] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:17:05,694] {logging_mixin.py:115} INFO - [2023-06-03 23:17:05,694] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:17:05,745] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 2.394 seconds
+[2023-06-03 23:17:35,940] {processor.py:153} INFO - Started process (PID=1698) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:17:35,943] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:17:35,944] {logging_mixin.py:115} INFO - [2023-06-03 23:17:35,944] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:17:36,386] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:17:36,547] {logging_mixin.py:115} INFO - [2023-06-03 23:17:36,546] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:17:36,571] {logging_mixin.py:115} INFO - [2023-06-03 23:17:36,571] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:17:36,586] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.652 seconds
+[2023-06-03 23:18:06,699] {processor.py:153} INFO - Started process (PID=1711) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:18:06,700] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:18:06,701] {logging_mixin.py:115} INFO - [2023-06-03 23:18:06,701] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:18:07,134] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:18:07,296] {logging_mixin.py:115} INFO - [2023-06-03 23:18:07,295] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:18:07,321] {logging_mixin.py:115} INFO - [2023-06-03 23:18:07,321] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:18:07,335] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.641 seconds
+[2023-06-03 23:18:37,481] {processor.py:153} INFO - Started process (PID=1724) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:18:37,483] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:18:37,485] {logging_mixin.py:115} INFO - [2023-06-03 23:18:37,485] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:18:37,920] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:18:38,082] {logging_mixin.py:115} INFO - [2023-06-03 23:18:38,081] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:18:38,105] {logging_mixin.py:115} INFO - [2023-06-03 23:18:38,105] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:18:38,120] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.643 seconds
+[2023-06-03 23:19:08,241] {processor.py:153} INFO - Started process (PID=1737) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:19:08,243] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:19:08,246] {logging_mixin.py:115} INFO - [2023-06-03 23:19:08,245] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:19:08,821] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:19:09,029] {logging_mixin.py:115} INFO - [2023-06-03 23:19:09,028] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:19:09,058] {logging_mixin.py:115} INFO - [2023-06-03 23:19:09,058] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:19:09,075] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.841 seconds
+[2023-06-03 23:19:39,209] {processor.py:153} INFO - Started process (PID=1750) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:19:39,210] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:19:39,212] {logging_mixin.py:115} INFO - [2023-06-03 23:19:39,212] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:19:39,650] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:19:39,812] {logging_mixin.py:115} INFO - [2023-06-03 23:19:39,811] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:19:39,839] {logging_mixin.py:115} INFO - [2023-06-03 23:19:39,838] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:19:39,852] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.647 seconds
+[2023-06-03 23:20:10,004] {processor.py:153} INFO - Started process (PID=1763) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:20:10,007] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:20:10,011] {logging_mixin.py:115} INFO - [2023-06-03 23:20:10,011] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:20:10,997] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:20:11,321] {logging_mixin.py:115} INFO - [2023-06-03 23:20:11,320] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:20:11,359] {logging_mixin.py:115} INFO - [2023-06-03 23:20:11,359] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:20:11,386] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 1.390 seconds
+[2023-06-03 23:20:41,527] {processor.py:153} INFO - Started process (PID=1776) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:20:41,528] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:20:41,530] {logging_mixin.py:115} INFO - [2023-06-03 23:20:41,530] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:20:41,952] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:20:42,099] {logging_mixin.py:115} INFO - [2023-06-03 23:20:42,098] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:20:42,122] {logging_mixin.py:115} INFO - [2023-06-03 23:20:42,122] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:20:42,136] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.613 seconds
+[2023-06-03 23:21:12,298] {processor.py:153} INFO - Started process (PID=1789) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:21:12,302] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:21:12,308] {logging_mixin.py:115} INFO - [2023-06-03 23:21:12,308] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:21:13,513] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:21:13,810] {logging_mixin.py:115} INFO - [2023-06-03 23:21:13,810] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:21:13,857] {logging_mixin.py:115} INFO - [2023-06-03 23:21:13,856] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:21:13,887] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 1.597 seconds
+[2023-06-03 23:21:44,061] {processor.py:153} INFO - Started process (PID=1802) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:21:44,065] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:21:44,068] {logging_mixin.py:115} INFO - [2023-06-03 23:21:44,068] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:21:45,061] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:21:45,369] {logging_mixin.py:115} INFO - [2023-06-03 23:21:45,368] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:21:45,415] {logging_mixin.py:115} INFO - [2023-06-03 23:21:45,415] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:21:45,446] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 1.394 seconds
+[2023-06-03 23:22:15,615] {processor.py:153} INFO - Started process (PID=1816) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:22:15,620] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:22:15,626] {logging_mixin.py:115} INFO - [2023-06-03 23:22:15,626] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:22:16,460] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:22:16,745] {logging_mixin.py:115} INFO - [2023-06-03 23:22:16,744] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:22:16,792] {logging_mixin.py:115} INFO - [2023-06-03 23:22:16,792] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:22:16,822] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 1.218 seconds
+[2023-06-03 23:22:47,044] {processor.py:153} INFO - Started process (PID=1829) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:22:47,052] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:22:47,059] {logging_mixin.py:115} INFO - [2023-06-03 23:22:47,058] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:22:48,434] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:22:48,726] {logging_mixin.py:115} INFO - [2023-06-03 23:22:48,725] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:22:48,765] {logging_mixin.py:115} INFO - [2023-06-03 23:22:48,765] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:22:48,793] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 1.763 seconds
+[2023-06-03 23:23:18,940] {processor.py:153} INFO - Started process (PID=1842) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:23:18,942] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:23:18,944] {logging_mixin.py:115} INFO - [2023-06-03 23:23:18,944] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:23:19,406] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:23:19,575] {logging_mixin.py:115} INFO - [2023-06-03 23:23:19,575] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:23:19,598] {logging_mixin.py:115} INFO - [2023-06-03 23:23:19,598] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:23:19,612] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.678 seconds
+[2023-06-03 23:23:49,729] {processor.py:153} INFO - Started process (PID=1855) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:23:49,731] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:23:49,733] {logging_mixin.py:115} INFO - [2023-06-03 23:23:49,733] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:23:50,188] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:23:50,349] {logging_mixin.py:115} INFO - [2023-06-03 23:23:50,348] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:23:50,373] {logging_mixin.py:115} INFO - [2023-06-03 23:23:50,373] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:23:50,393] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.669 seconds
+[2023-06-03 23:24:20,498] {processor.py:153} INFO - Started process (PID=1875) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:24:20,500] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:24:20,502] {logging_mixin.py:115} INFO - [2023-06-03 23:24:20,502] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:24:20,968] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:24:21,128] {logging_mixin.py:115} INFO - [2023-06-03 23:24:21,128] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:24:21,171] {logging_mixin.py:115} INFO - [2023-06-03 23:24:21,171] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:24:21,184] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.691 seconds
+[2023-06-03 23:24:51,290] {processor.py:153} INFO - Started process (PID=1888) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:24:51,291] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:24:51,293] {logging_mixin.py:115} INFO - [2023-06-03 23:24:51,293] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:24:51,750] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:24:51,922] {logging_mixin.py:115} INFO - [2023-06-03 23:24:51,922] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:24:51,949] {logging_mixin.py:115} INFO - [2023-06-03 23:24:51,949] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:24:51,963] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.678 seconds
+[2023-06-03 23:25:22,080] {processor.py:153} INFO - Started process (PID=1901) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:25:22,082] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:25:22,084] {logging_mixin.py:115} INFO - [2023-06-03 23:25:22,084] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:25:22,589] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:25:22,748] {logging_mixin.py:115} INFO - [2023-06-03 23:25:22,748] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:25:22,773] {logging_mixin.py:115} INFO - [2023-06-03 23:25:22,773] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:25:22,787] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.711 seconds
+[2023-06-03 23:25:52,926] {processor.py:153} INFO - Started process (PID=1915) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:25:52,929] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:25:52,932] {logging_mixin.py:115} INFO - [2023-06-03 23:25:52,931] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:25:53,554] {processor.py:651} INFO - DAG(s) dict_keys(['data_ingestion_gcs_dag']) retrieved from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:25:53,765] {logging_mixin.py:115} INFO - [2023-06-03 23:25:53,765] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-06-03 23:25:53,797] {logging_mixin.py:115} INFO - [2023-06-03 23:25:53,797] {dag.py:2931} INFO - Setting next_dagrun for data_ingestion_gcs_dag to None, run_after=None
+[2023-06-03 23:25:53,818] {processor.py:161} INFO - Processing /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py took 0.901 seconds
+[2023-06-03 23:26:24,002] {processor.py:153} INFO - Started process (PID=1928) to work on /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
+[2023-06-03 23:26:24,007] {processor.py:641} INFO - Processing file /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py for tasks to queue
+[2023-06-03 23:26:24,011] {logging_mixin.py:115} INFO - [2023-06-03 23:26:24,011] {dagbag.py:507} INFO - Filling up the DagBag from /Users/eugene/Personal_Projects/Data_Project/app/airflow/dags/data_ingestion_gcs.py
